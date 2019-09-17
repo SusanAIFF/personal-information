@@ -4,3 +4,14 @@
 下载一般是zip格式的 
 别人可以在issue中提交项目的问题，供交流讨论,就像评论和帖子一样，楼主也可以关掉issue 
 branch？
+在git软件中初始化配置：
+git config --global user.name 'gitHubName'/'EmailAdrress'
+mkdir test      //创建文件夹test
+git init        //创建隐藏文件夹.git，作为仓库
+touch test.cpp  //创建文件，可以是任何形式的文件
+vi ''           //修改文件，也可以是创建
+git status      //保存工作区？查看暂存区信息？
+git add ' '     //上传文件到暂存区
+git commit -m '***'     //上传至'本地'仓库，并上传描述
+rm -rf ' '      //删除文件
+git push        //上传本地仓库到github
